@@ -67,7 +67,6 @@
 
 	<script src="script/kakao.min.js"></script>
 
-
 	<!-- 익스플로러 9 이하 버전의 html5 인식용 스크립트 -->
 	<!--[if lt ie 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -122,13 +121,10 @@
 			</div>
 		</div><!-- //전화 버튼 영역 끝 -->
 
-
-			<!-- 갤러리 영역 시작 -->
+		<!-- 갤러리 영역 시작 -->
 		<div class="gallery_area">
 			<img src="img/img_10.jpg" alt="">
 		</div><!-- //갤러리 영역 끝 -->
-
-
 
 		<!-- 확대보기 영역 시작 -->
 		<div class="zoom_area">
@@ -140,23 +136,29 @@
 			<img src="img/img_12.jpg" alt="">
 		</div><!-- //주소 영역 끝 -->
 
-
-	<!-- 지도 영역 시작 -->
+		<!-- 지도 영역 시작 -->
 		<div class="map_area">
 			<a href="https://m.map.naver.com/search2/site.nhn?query=%EC%88%98%EC%9B%90%20%ED%8C%8C%ED%8B%B0%EC%9B%80%ED%95%98%EC%9A%B0%EC%8A%A4&amp;sm=hty&amp;code=12055125#/map"><img src="img/img_13.jpg" alt=""></a>
 		</div><!-- //갤러리 영역 끝 -->
 
-	<!-- 오시는 길 영역 시작 -->
+		<!-- 오시는 길 영역 시작 -->
 		<div class="direction_area">
 		<img src="img/img_14.jpg" alt="">
 		</div><!-- //오시는 길 영역 끝 -->
 
 
+		<!--<div style="position:absolute; top:1100%; left:0px;border:1px solid black">-->
+			<!--<iframe src="http://daum.net" width="410%" height="850px" scrolling="no" frameborder="0"></iframe>-->
+		<!--</div>-->
+
 		<div id="replyBoard">
-					<link rel="stylesheet" href="css/boardLayout.css">
-					<script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
-					<script type="text/javascript" src="script/boardController.js"></script>
-					<div id="Jboard">
+			<link rel="stylesheet" href="css/boardLayout.css">
+			<script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
+			<script type="text/javascript" src="script/jquery.ajax-cross-origin.min.js"></script>
+			<script type="text/javascript" src="script/jquery.form.min.js"></script>
+			<script type="text/javascript" src="script/boardController.js"></script>
+
+			<div id="Jboard">
 						<div class="boardWriter">
 							<form name="write">
 								<input type="hidden" name="board_table" value="cstkyj0901">
@@ -180,55 +182,7 @@
 						</div>
 						<div class="boardList">
 							<ul>
-																<li>
-									<span class="name">준</span>
-									<span class="date">2018-07-30 21:59:45</span>
-									<div class="content">
-										웨인이 결혼하다니! 대박행진~									</div>
-									<a href="javascript:void(0);" class="articleDelete">삭제</a>
-									<div class="passwordBox">
-										<input type="hidden" name="checkPoint" value="false">
-										<input type="hidden" name="idx" value="11999">
-										<input type="password" name="removePassword" size="" maxlength="">
-									</div>
-								</li>
-																<li>
-									<span class="name">여영여영</span>
-									<span class="date">2018-07-30 20:58:39</span>
-									<div class="content">
-										주사님 진짜 결혼하는게 실감이 나네요!ㅎ 사진 넘 예뻐용ㅋㅋㅋ 너무 잘 어울린닷~~ 더더더 행복하길 바랄게요!♡									</div>
-									<a href="javascript:void(0);" class="articleDelete">삭제</a>
-									<div class="passwordBox">
-										<input type="hidden" name="checkPoint" value="false">
-										<input type="hidden" name="idx" value="11997">
-										<input type="password" name="removePassword" size="" maxlength="">
-									</div>
-								</li>
-																<li>
-									<span class="name">반려동물팀</span>
-									<span class="date">2018-07-30 19:35:09</span>
-									<div class="content">
-										올해의 주인공 겹경사 유정느님~!~!! 축하해요 너무너무 이뻐요~!~! ㅋㅋㅋㅋ 결혼 후엔 우리팀으로 와줘영~♡									</div>
-									<a href="javascript:void(0);" class="articleDelete">삭제</a>
-									<div class="passwordBox">
-										<input type="hidden" name="checkPoint" value="false">
-										<input type="hidden" name="idx" value="11995">
-										<input type="password" name="removePassword" size="" maxlength="">
-									</div>
-								</li>
-																<li>
-									<span class="name">여수사람(사무실짝꿍)</span>
-									<span class="date">2018-07-30 19:33:19</span>
-									<div class="content">
-										우리 유정주사님~ 결혼 축하해용♥️ 행복한 신혼생활 하셔용!! 넘넘 이쁜 한쌍이네요									</div>
-									<a href="javascript:void(0);" class="articleDelete">삭제</a>
-									<div class="passwordBox">
-										<input type="hidden" name="checkPoint" value="false">
-										<input type="hidden" name="idx" value="11994">
-										<input type="password" name="removePassword" size="" maxlength="">
-									</div>
-								</li>
-															</ul>
+							</ul>
 						</div>
 						<div class="boardPagination">
 							<a href="javascript:void(0);" class="prev">prev</a>
@@ -248,8 +202,8 @@
 			</div>
 			<div class="right_box">
 			<a href="javascript:shareStory()">
-      <img src="img/img_16.jpg">
-    </a>
+      			<img src="img/img_16.jpg">
+    		</a>
 			</div>
 			<div class="left_box">
 				<a href="https://www.facebook.com/sharer/sharer.php?u=saebomm.com/0901cstkyj"><img src="img/img_17.jpg" alt=""></a>
@@ -260,7 +214,7 @@
 		</div><!-- //전화 버튼 영역 끝 -->
 
 
- <!-- 새봄로고 영역 시작 -->
+ 		<!-- 새봄로고 영역 시작 -->
 		<div class="saebomm_area">
 			<a href="http://www.saebomm.co.kr/"><img src="img/img_19.jpg" alt=""></a>
 		</div><!-- //새봄로고 영역 끝 -->
@@ -312,12 +266,6 @@
           text: '최석태♥권유정의 모바일청첩장입니다. 새로이 함께 서는 저희 두 사람의 모습을 부디 오셔서 지켜봐 주시면 감사하겠습니다.'
         });
       }
-
 </script>
-
-
-
-
-
 
 </div></body></html>
