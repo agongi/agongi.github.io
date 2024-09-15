@@ -1,0 +1,42 @@
+# intellij project file
+/**/*.iml
+/**/.idea
+/.run
+
+# maven build target
+/**/target/
+
+# build output
+/**/out/
+/**/classes/
+/**/build/
+/**/dist/
+
+# idea querydsl generated qclass
+/**/generated/
+/**/generated_tests/
+
+# hidden files and directories
+/**/.next
+/**/.gradle
+/**/.yarn/*
+!/**/.yarn/releases
+/**/.pnp.*
+
+# logs
+/**/*.log
+/**/*.log.gz
+/**/*.tmp
+
+# node_modules files
+/**/node_modules/
+
+# except .gitignore file
+!/.gitignore
+!/.github
+!.gitmodules
+!.editorconfig
+!.dockerignore
+
+# python package files
+/**/airflow_dags.egg-info
