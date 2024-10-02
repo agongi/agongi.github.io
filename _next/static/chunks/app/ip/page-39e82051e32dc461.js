@@ -1,0 +1,2 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[914],{6612:function(n,e,r){Promise.resolve().then(r.bind(r,7381))},7381:function(n,e,r){"use strict";r.r(e),r.d(e,{default:function(){return u}});var t=r(7811);function u(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("div",{children:"foo, bar"})})}}},function(n){n.O(0,[632,375,744],function(){return n(n.s=6612)}),_N_E=n.O()}]);
+//# sourceMappingURL=page-39e82051e32dc461.js.map
