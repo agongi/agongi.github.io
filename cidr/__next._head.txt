@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[11662,["/_next/static/chunks/f68b45133700d4ce.js"],"ViewportBoundary"]
+4:I[11662,["/_next/static/chunks/f68b45133700d4ce.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[22698,["/_next/static/chunks/f68b45133700d4ce.js"],"IconMark"]
+0:{"buildId":"20251123170147","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"}]]
+6:[["$","title","0",{"children":"NYX의 페이지"}],["$","link","1",{"rel":"icon","href":"/static/favicon_192.png"}],["$","$L7","2",{}]]
